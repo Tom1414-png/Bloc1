@@ -18,3 +18,14 @@
  ##  **point negatif et positif de la mtheode post**
 
 *✅ Il peut envoyer de plus grandes quantités de données
+
+
+
+ | Méthode GET                               | Méthode POST                              |
+|-------------------------------------------|-------------------------------------------|
+   | Récupération de données                   | Soumission de données au serveur          |
+   | Les paramètres sont visibles dans l'URL   | Les paramètres sont dans le corps de la requête |
+   | Moins sécurisé | Plus sécurisé pour les données sensibles, car elles ne sont pas visibles dans l'URL |
+  | Peut être sauvegardé dans les signets     | Impossible de sauvegarder                 |
+  | Non, généralement utilisé pour lire des données | Oui, généralement utilisé pour modifier des données |
+
