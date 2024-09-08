@@ -1,0 +1,4 @@
+# le protocole http sans état.
+
+*cela signifie il n'y a pas de lien entre deux requêtes qui sont effectuées successivement sur la même connexion.
+\-par exemple une premiere recherche n'aura pas de lien et ne vas pas influancer celle qui suit
