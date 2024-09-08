@@ -29,3 +29,46 @@
   | Peut être sauvegardé dans les signets     | Impossible de sauvegarder                 |
   | Non, généralement utilisé pour lire des données | Oui, généralement utilisé pour modifier des données |
 
+
+# Extensions des methodes HTTP
+
+* Le protocole HTTP (HyperText Transfer Protocol) est conçu pour être extensible
+- Ce qui signifie qu'il peut évoluer et s'adapter à de nouveaux besoins.
+
+
+# Sans Etats
+
+- Le protocole HTTP est qualifié de sans état car chaque requête est indépendante des autres 
+
+- Le serveur ne conserve aucune information entre deux requêtes
+
+
+ # URL
+
+ 
+![anatomie-dune-url-siteweb](https://github.com/user-attachments/assets/5b03c6b5-7210-41bf-8080-3ca5f43ade82)
+
+# Code status 
+
+* 1xx : Informative
+  - Exemple : 100 Continue (la requête se poursuit)
+* 2xx : Succès
+  - Exemple : 200 OK (la requête a réussi).
+* 3xx : Redirection
+  - Exemple : 301 Moved Permanently (la ressource a été déplacée).
+*  4xx : Erreur client
+  - Exemple : 404 Not Found (ressource introuvable).
+* 5xx : Erreur serveur
+  - Exemple : 500 Internal Server Error (erreur interne du serveur).
+ 
+
+# Négociation de contenu
+
+* La négociation de contenu HTTP permet au client et au serveur de choisir le meilleur format de réponse.
+
+
+# Installation Apache & configuration
+
+
+ 
+
