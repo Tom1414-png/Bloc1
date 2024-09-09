@@ -51,15 +51,15 @@
 # Code status 
 
 * 1xx : Informative
-  - Exemple : 100 Continue (la requête se poursuit)
+  - Exemple : 100 la requête se poursuit
 * 2xx : Succès
-  - Exemple : 200 OK (la requête a réussi).
+  - Exemple : 200 la requête a réussi
 * 3xx : Redirection
-  - Exemple : 301 Moved Permanently (la ressource a été déplacée).
+  - Exemple : 301 la ressource a été déplacée
 *  4xx : Erreur client
-  - Exemple : 404 Not Found (ressource introuvable).
+  - Exemple : 404 ressource introuvable.
 * 5xx : Erreur serveur
-  - Exemple : 500 Internal Server Error (erreur interne du serveur).
+  - Exemple : 500  erreur interne du serveur.
  
 
 # Négociation de contenu
