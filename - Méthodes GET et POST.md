@@ -10,12 +10,12 @@
 
 *les données saisies par l’utilisateur, sont passés non pas dans l’URL, mais dans la requête elle-même.
   
- ##  **point negatif et positif de la mtheode GET**
+ ##  **point negatif et positif de la méthode GET**
     
 * ❌un manque de protection des données 
 * ✅une simplicité a la recherche
 
- ##  **point negatif et positif de la mtheode post**
+ ##  **Point negatif et positif de la méthode POST**
 
 *✅ Il peut envoyer de plus grandes quantités de données
 
