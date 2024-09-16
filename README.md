@@ -1,4 +1,4 @@
 ## Hi there👋
 -I am currently in first year of BTS SIO 💻
 
--Si vous souhaitez me contacter tyv.bernouin@gmail.com
+-If you would like to contact me tyv.bernouin@gmail.com
