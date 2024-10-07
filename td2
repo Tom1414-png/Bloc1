@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recette de la pâte à crêpes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #4a4a4a;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .ingredients, .instructions {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Révisons nos classiques : la recette de la pâte à crêpes</h1>
+<p>Facile, rapide et (très) économique, la pâte à crêpes met tout le monde d’accord.</p>
+<p>Février ne serait pas février sans la chandeleur et son lot de crêpes. Parce que la recette de la pâte à crêpes est souvent sujet à discorde, voici la vraie recette facile et rapide pour régaler toute la famille.</p>
+
+<h2>Lire aussi : 16 recettes à base de chocolat</h2>
+
+<div class="ingredients">
+    <h2>Pâte à crêpe facile : la recette</h2>
+    <p>Comptez une dizaine de minutes pour la préparation de la pâte à crêpes, et 1h de repos (nul besoin de la faire reposer plus longtemps).</p>
+    <h3>Ingrédients :</h3>
+    <ul>
+        <li>125 g de farine de froment</li>
+        <li>4 œufs</li>
+        <li>25 cl de lait entier</li>
+        <li>1 pincée de sel</li>
+        <li>1 sachet de sucre vanillé</li>
+        <li>1 c. à soupe de rhum ou d’eau de fleur d’oranger (pour parfumer la pâte)</li>
+    </ul>
+</div>
+
+<div class="instructions">
+    <h3>La recette de la pâte à crêpes :</h3>
+    <ol>
+        <li>Mélangez la farine, le sel et le sucre dans un grand bol. Faites un puits au milieu.</li>
+        <li>Fouettez les œufs et la moitié du lait et versez le mélange dans le puits. Mélangez en incorporant petit à petit la farine.</li>
+        <li>Ajoutez le reste de lait et le rhum ou l’eau de fleur d’oranger. Laissez reposer 1h.</li>
+    </ol>
+</div>
+
+</body>
+</html>
