@@ -1,6 +1,0 @@
-# Le differente parti d'un url, et ce quoi elle correspond.
-
-* l'URL se compose de 3 éléments
-  1 Le protocole et le sous domaine : https://www.
-  2 le nom du site exemple (amazon)
-  3 L'extension du nom de domaine exemple (com., .fr)
