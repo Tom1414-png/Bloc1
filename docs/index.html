@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index de Cours SLAM</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <header>
+    <h1>📂 Index des Projets SLAM</h1>
+  </header>
+  <main>
+    <section class="intro">
+      <h2>Bienvenue !</h2>
+      <p class="typing">Retrouvez ici tous les documents importants et projets réalisés dans vos TDs.</p>
+    </section>
+
+    <hr>
+    <div class="buttons">
+      <button id="btnAfficher" onclick="btnToutAfficher()">🔍 Tout afficher</button>
+      <button id="btnCacherTout" onclick="btnRienAfficher()">🚫 Tout cacher</button>
+    </div>
+    <hr>
+
+    <section class="folders">
+      <div class="folder" onclick="toggleProjects('td1')">📁 TD1</div>
+      <ul id="td1" class="projects">
+        <li><a href="https://github.com/kenoren/bloc1/blob/main/documents/td1/question.md">Question</a></li>
+      </ul>
+
+      <div class="folder" onclick="toggleProjects('td2')">📁 TD2</div>
+      <ul id="td2" class="projects">
+        <li><a href="./pages/mention-legales/mention.html">Mentions légales</a></li>
+        <li><a href="./pages/pates-a-crepes/patescrepes.html">Pâtes à crêpes</a></li>
+        <li><a href="./pages/status-juridiques/statusjuridique.html">Statuts Juridiques</a></li>
+      </ul>
+
+      <div class="folder" onclick="toggleProjects('td3')">📁 TD3</div>
+      <ul id="td3" class="projects">
+        <li><a href="./pages/td3/conseil-gestion.html">Conseil Gestion</a></li>
+        <li><a href="./pages/td3/web-arena.html">Web Arena</a></li>
+      </ul>
+
+      <div class="folder" onclick="toggleProjects('td4')">📁 TD4</div>
+      <ul id="td4" class="projects">
+        <li><a href="./pages/td4/calculatrice.html">Calculatrice</a></li>
+        <li><a href="./pages/td4/toDoList.html">ToDoList</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>© 2024 - Tom BERNOUIN | SLAM 💻</p>
+  </footer>
+  <script>
+    // Toggle affichage des projets
+function toggleProjects(tdId) {
+  const projectsList = document.getElementById(tdId);
+  projectsList.style.display = projectsList.style.display === "none" || projectsList.style.display === "" ? "block" : "none";
+}
+
+// Tout afficher
+function btnToutAfficher() {
+  const allProjects = document.querySelectorAll(".projects");
+  allProjects.forEach(project => (project.style.display = "block"));
+}
+
+// Tout cacher
+function btnRienAfficher() {
+  const allProjects = document.querySelectorAll(".projects");
+  allProjects.forEach(project => (project.style.display = "none"));
+}
+
+  </script>
+</body>
+</html>
